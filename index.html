@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full stack Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="JavaScript" src="main.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a class="navbar-brand" href="#">Full stack Academy</a>
+            <button class="navbar-toggler" id="navbar-toggler">&#9776;</button>
+            <div class="navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <!-- <header class="hero-section">
+        <div class="container">
+            <h1>Welcome to WebDev Academy</h1>
+            <p>Master the skills to build modern, responsive websites</p>
+            <a href="#courses" class="btn">Explore Courses</a>
+        </div>
+    </header>  -->
+
+    <br>
+    <h2 class="section-title"> Welcome to Full stack Academy</h2>
+
+    <video src="videoplayback.mp4" autoplay muted height="300px" width="100%"> </video>
+    <br>
+    <marquee><h5> 2024-25 Addmission Open and limited seats are vaccent </h5></marquee>
+    <hr>
+    <!--Placement photo-->
+    <div class="placement">
+        <h2 class="section-title">Our placement highlight</h2>
+        <img src="placement-drive-1024x576.jpeg" height="450px" width="1356px">
+    </div>
+    <!-- Courses Section -->
+    <section id="courses" class="section">
+        <div class="container">
+            <h2 class="section-title">Our Courses</h2>
+            <div class="courses">
+                <div class="course">
+                    <h3>HTML</h3>
+                    <p> Hypertext Markup Language is the standard markup language for documents designed to be displayed
+                        in a web browser. It defines the content and structure of web content. It is often assisted by
+                        technologies such as Cascading Style Sheets and scripting languages such as JavaScriptHypertext
+                        Markup Language is the standard markup language for documents designed to be displayed in a web
+                        browser. </p>
+                    <a class="btn" href="#">Learn more.</a>
+                </div>
+                <div class="course">
+                    <h3>CSS</h3>
+                    <p> Cascading Style Sheets is a style sheet language used for specifying the presentation and
+                        styling of a document written in a markup language such as HTML or XML. CSS is a cornerstone
+                        technology of the World Wide Web, alongside HTML and JavaScript. Transform your web pages with
+                        CSS. Learn to design and style websites, creating visually appealing and responsive layouts.
+                        Perfect for beginners looking to enhance their web design skills.</p>
+                    <br>
+                    <a class="btn" href="#">Learn more.</a>
+                </div>
+                <div class="course">
+                    <h3>JavaScript</h3>
+                    <p>Unlock the power of JavaScript to add interactivity to your websites. This course covers
+                        fundamental concepts and practical applications, perfect for beginners ready to elevate their
+                        web development JavaScript, often abbreviated as JS, is a programming language and core
+                        technology of the Web, alongside HTML and CSS. 99% of websites use JavaScript on the client </p>
+                    <a class="btn" href="#">Learn more.</a>
+                </div>
+                <div class="course">
+                    <h3>SQL</h3>
+                    <p>Discover the power of SQL for managing and querying databases. Learn essential skills to
+                        organize, retrieve, and manipulate data, ideal for beginners aiming to excel in database
+                        management and data analysis.Structured Query Language is a domain-specific language used to
+                        manage data, especially in a relational database management system. It is particularly useful in
+                        handling structured data, i.e., data incorporating relations among entities and variables. </p>
+                    <a class="btn" href="#">Learn more.</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <p class="centered">Our mission is to provide top web development education to aspiring developers
+                worldwide.</p>
+            <div class="team">
+                <div class="team-member">
+                    <img src="mpic.jpeg" alt="John Doe">
+                    <h5>Md Tahseen</h5>
+                    <p>Director</p>
+                    <p>"The first rule of management is delegation. Don't try and do everything yourself because you
+                        can't."</p>
+                    <p>“Set your goals high, and don't stop till you get there.”</p>
+                    <a href="#" class="btn">More...</a>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <br>
+
+    <!-- Contact Us Section -->
+    <center>
+        <section id="contact" class="section bg-lights">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="Mobile Number">Mobile Number</label>
+                        <input type="number" id="number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </section>
+    </center>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p>© 2024 All rights reserved.</p>
+         
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
